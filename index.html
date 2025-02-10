@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <span style="color: #0095ff;">Mini</span> Code Editor
+        </h1>
+        <div class="profile-container">
+            <div class="by">Created by</div>
+            <div class="name"><a href="https://www.linkedin.com/in/daksh-lakhi" style="text-decoration: none;">DAKSH LAKHI</a></div>
+        </div>
+        <button class="theme-toggle" onclick="toggleTheme()">Change Theme</button>
+    </header>
+
+    <div class="container">
+        <div class="left">
+            <label>
+                <i class="fa-brands fa-html5" style="color: #cd2c00;"></i> HTML
+            </label>
+            <textarea id="html-code" onkeyup="run()" spellcheck="false" placeholder="/* Example HTML */
+&lt;h1&gt;Hello, World!&lt;/h1&gt;"></textarea>
+
+            <label>
+                <i class="fa-brands fa-css3-alt" style="color: #1d15b6;"></i> CSS
+            </label>
+            <textarea id="css-code" onkeyup="run()" spellcheck="false" placeholder="/* Example CSS */
+body {
+    background: #f0f0f0;
+    color: #333;
+}"></textarea>
+
+            <label>
+                <i class="fa-brands fa-js" style="color: #ffe100;"></i> JavaScript
+            </label>
+            <textarea id="js-code" onkeyup="run()" spellcheck="false" placeholder="/* Example JS */
+console.log('Hello, World!');"></textarea>
+        </div>
+
+        <div class="right">
+            <label>
+                <i class="fa-solid fa-play" style="color: #0038ba;"></i> Output
+            </label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+
+    <div class="empty"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
