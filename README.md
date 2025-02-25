@@ -16,5 +16,9 @@ The Mini Code Editor is perfect for:
 - **Rapid Prototyping:** Quickly test and visualize small pieces of code or ideas without needing a complex setup or environment.
 - **Code Demonstrations:** Easily demonstrate and share HTML, CSS, and JavaScript code snippets with others, whether for teaching or collaborative projects.
 
+## 📷 Screenshot
+
+![Code editor Screenshot](screenshot.png)  
+
 ## Contact
 For any queries or suggestions, feel free to contact me via [dakshlakhi01@gmail.com](mailto:dakshlakhi01@gmail.com).
